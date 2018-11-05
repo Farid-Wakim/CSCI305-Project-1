@@ -1,0 +1,44 @@
+*{
+font-family: 'Helvetica Neue';
+background-color:white;
+}
+
+header{
+    position: fixed;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+header > nav{
+    background-color: white;
+    padding:15px;   
+    border-bottom: 5px dotted lightgray;
+    border-top: 5px dotted lightgray;
+}
+header>nav>a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 180px;
+    font-size: 20px;
+
+}
+header>nav>a:hover{
+background-color: lightgrey;
+color:white;
+}
+main{
+    padding-top:140px;
+    margin-left: 10px;
+}
+main>section{
+    float: right;
+    width: 413px;
+    height:365px;
+
+}
+footer{
+    padding: 20px; 
+    background-color: antiquewhite;
+}
